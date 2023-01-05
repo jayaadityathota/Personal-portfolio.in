@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="shortcut icon" type="image" href ="http://drive.google.com/uc?export=view&id=1wGGmxMbvLuSfGnjXruDZo9VEpAXYfZbq">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://stock.adobe.com/search/images?filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Borientation%5D=vertical%2Csquare&filters%5Borientation_type%5D%5Bis_square%5D=true&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&search_type=see-more&limit=100&search_page=1&serie_id=139551832&get_facets=1&asset_id=165548212">
+    <script src="https://kit.fontawesome.com/3f702e0d71.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--section-1-->
+    <section class="section-1">
+        <div class="container">
+        <nav>
+            <img src="http://drive.google.com/uc?export=view&id=1mrQOBB6fDAvK-oIN4bTZ8Q0-n8aczMQw" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                <!--<li><a href="#">Contact</a></li>-->
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="container-1">
+                <h1>Hello,<br>I'm <span>Jaya Aditya</span><br>from <span>India</span>.</h1>
+                <img src="http://drive.google.com/uc?export=view&id=1KOOuRxiTyQl_gFNkUvvmarEoZgnA38Tu"  alt=" ">
+            </div>
+            <p class="design">Software Engineer</p>
+        </div>
+    </section>
+
+<!--section-2-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column-1">
+                    <img src="http://drive.google.com/uc?export=view&id=1FMgsJQDY_KeODlJobcJHdJCFxDWSlOk2" alt="">
+                </div>
+                <div class="column-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-p">My name is <span>Jaya Aditya Thota</span>. My proper is machilipatnam. I completed my graduation in <span>Andhra University</span> visakhapatnam.
+                        Then, I worked in a company named <em>iMerit Technology Services pvt.ltd</em> for the 6 month's and it's a Non-IT company.
+                        So currently I'm training for the fullstack developer course. Then I will look for an oppurtunity to work in IT sector. I'm positive minded person and I know how to handle the negative situations.
+                        I have my confidence to growup of your company and myself as well. I'm believing myself morethan others.
+                    </p>
+                    <div class="skills-1">
+                        <p class="s active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="s" onclick="opentab('experience')">Experience</p>
+                        <p class="s"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Core Java</span><br>Java Programming</li>
+                            <li><span>HTML & CSS</span><br>Front-End Development</li>
+                            <li><span>C and C++</span><br>Basic Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>21st Dec 2022 - Current </span><br>Full Stack Develeoper training at Datapro Computers.</li>
+                            <li><span>27th Jun - Dec 4th 2022 </span><br>Annotator - Computer Vision at iMerit Technology Services pvt.ltd.</li>
+                            <li><span>Oct 2014 - 2015 March</span><br>I learnt the Computer Hardware services at KVR Infoways as a part timer.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 </span><br>Completed B-Tech (Computer Science) at Andhra University(visakhapatnam)</li>
+                            <li><span>2019</span><br>Completed Diploma(M.E) at Sri Varalakshmi Polytechnic College(machilipatnam)</li>
+                            <li><span>2014</span><br>Completed X at S.R.Y.S.P High School(challapalli)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Projects-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            
+            <div class="projects-list">
+
+                <div>
+                    <img src="https://as1.ftcdn.net/v2/jpg/01/65/54/82/1000_F_165548212_EfRHhSQ1ycpHLN7geaiImNGkOmLCCsYH.jpg">
+                    <h2>Traffic Based Alert System <br>Using Computer Vision Technology.</h2>
+                    <p>We are developed an application for detecting the traffic and give<br>information to the User and suggesting him to choose another route.<br> 
+                        We used different technologies like Android, Java, Firebase, Machine <br>learning. For detection of vehicles we used machine learning algorithm<br>
+                        Convocational Neural Network. Based on the location giving the<br> information about the traffic we have used Google Maps. 
+                        So here we are <br>introducing the some features like<li>Location alarm</li><li>Traffic prediction</li> 
+                        <li>VIP support and</li><li>Emergency alert</li><br>These are all support by the 
+                        google maps through our application.</p>
+                    <a href="https://drive.google.com/file/d/1YXPKjrYEe-6NQTBr0oy_V0IxsZHjVR1M/view?usp=share_link" target="_blank" style= "font-size: 18px; color: rgb(255, 165, 0)";>Learn more</a>
+                </div>
+
+                <div>
+                    <img src="https://as1.ftcdn.net/v2/jpg/04/13/53/54/1000_F_413535464_BTWRHlemjJedCw7AUy0BhJVWoPpA94KA.jpg" alt="">
+                    <h2>IOT based Fire Detection Alarm<br>Using Arduino Uno.</h2>
+                    <p>Basically it's an IOT based project. So here we did a project for gaining<br> knowledge of Internet of Things. In this project we have used Arduino <br> UNO, Flame sensor, Buzzer, LED's and Jumper wires.
+                    The concept of this <br> project was to alert from of the fire. Whenever fire detecting by the<br> Flame sensor then the Buzzer will blow. Everything done by the <br> programming
+                    of the Arduino UNO.</p>
+                    <p>Click on the below link and you'll get the references of this project.</p>
+                    <p><a href="https://create.arduino.cc/projecthub/Daini/fire-detection-alarm-e82a9e" target="_blank" style="font-size: 18px; color:rgb(255, 165, 0);">Learn more</a></p>
+                </div>
+            
+            </div>
+
+            <div class="projects-list-1">
+
+                <!--<div>
+                    <h2>Online Service Portal</h2>
+                    <p></p>
+                    <a href="">Learn more</a>
+                </div>-->
+
+                <div>
+                    <img src="https://as2.ftcdn.net/v2/jpg/01/01/56/71/1000_F_101567136_bEi6NuW460JKMgN09xfCFzV4r4bwuQAM.jpg" alt="">
+                    <h2>Hiding Data in an Image</h2>
+                    <p>Hiding Data in an Image, The main moto of this project was whenever <br>you wanted to share the personal or important information with someone?
+                        <br> then you can do it by send an image along with the your personal or important<br> information. So inside of this process we use stegenography,
+                        change of <br>RGB values of the pic and maintain the high security for the inside of personal <br>or important information.</p>
+                        <p>Click on the below link and you'll get the references of this project.</p>
+                        <p><a href="https://towardsdatascience.com/python-project-how-to-hide-secret-data-in-images-2a835ed6b9b1" target="_blank" style="font-size: 18px; color: rgb(255, 165, 0);">Learn more</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+        <!--Contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> jayaadityathota@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +91 7995400112</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/jaya_aditya_naidu/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/jayaadityathota" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="http://www.linkedin.com/in/aditya-thota-2a114621a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/jaya_aditya1525" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                            <a href="https://drive.google.com/file/d/19MVp9DqbQdHn_tgyA0kxz4LwfA14uB2M/view?usp=share_link" download class="btn">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <input type="tel" name="Phone" placeholder="Your Number" required>
+                            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ Jayaaditya. <i class="fa-solid fa-heart"></i> Made in India</p>
+            </div>
+        </div>
+    <script>
+        var s= document.getElementsByClassName('s');
+        var tabcontents= document.getElementsByClassName('tab-contents');
+        
+        function opentab(tabname){
+            for(s1 of s){
+                s1.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-150px";
+        }
+    
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwOmCAJJY1IsIoAb_1VJJ6Sbb5VwtfrXE6kPpEHN7mVFweEOjfjaLoKaEFSD19xgC2S/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thank you for Visiting Us 😊"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                }, 1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+ </body>       
+</html>
